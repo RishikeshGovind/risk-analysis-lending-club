@@ -1,14 +1,11 @@
 # Risk Analysis Lending Club
 
-This project is a complete end-to-end AI-based trading strategy evaluator built using Python and Streamlit.  
-It allows users to analyse stock or crypto tickers and compare an ML-driven trading strategy vs the actual market performance.
-
 This repository contains **Risk_Analysis_Lending_Club.ipynb**, a Jupyter/Colab notebook that walks through:
 
 - **Data ingestion & cleaning**: parsing dates, handling missing values, encoding categoricals  
 - **Exploratory Data Analysis (EDA)**: distributions, segment comparisons (good vs. bad loans), region-based time series  
 - **Feature engineering**: interest-rate tiers, income categories, credit policy flags  
-- **Visualization**: Seaborn and Plotly charts (histograms, box/violin plots, heatmaps, stacked bars, time series)  
+- **Visualisation**: Seaborn and Plotly charts (histograms, box/violin plots, heatmaps, stacked bars, time series)  
 - **Modeling**:  
   - Logistic Regression & Decision Trees (Sklearn)  
   - Deep Neural Networks (TensorFlow / Keras)  
